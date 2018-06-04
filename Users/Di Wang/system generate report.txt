@@ -1,0 +1,8 @@
+Generate Reports
+
+Three reports are generated monthly by the system to summarize the rental systems success. The first report is a listing of every item in inventory, listing tool ID, abbreviated description, rental profit, cost of tool, and total profit. The rental profit is the rental price multiplied by the number of days that the tool has been rented. The cost of the tool is the original price of the tool, plus the cost of any service orders made on the tool. The total profit is the rental profit minus the cost of the tool. The list is ordered by the total profit made on each item.
+
+The second report is a list of all rental customers who rented a tool over the last month. Their names, email addresses, and number of rentals are printed, and the list is ordered first by number of tools rented, and then last name.
+
+The final report is for clerks to track their own progress in achieving this month¡¯s clerk-of-the-month. The report lists the clerks name, the number of pick-ups handled this month, the number of drop-offs handled this month, and the sum of the two. It is ordered by the total number of pick-ups and drop-offs.
+ 

@@ -1,0 +1,37 @@
+Online tool reservation database structure
+the database stores users, tools, and related operations
+
+users: 
+1. customer
+store personal information
+reservation history
+payment information
+
+operations
+call for services
+-look up tools through available date
+-submit order (book tools)
+-view tool database by tool category
+
+
+2. clerks
+account information
+handling tool pick up/ drop off
+generate charges on customers
+
+operations
+-insert; 
+-delete; 
+-modify date (in stock); 
+-charge customer with the received payment information along with the order
+
+3. tools 
+tool databse
+part id; available data range; description
+prices
+
+operations
+-authorize clerks to modified the tool database
+-call by rental customers (booked, mark unavailable date)
+-sort the database by category
+-sort the tool database by availabe time
